@@ -70,4 +70,6 @@ For those operations, both start and end values can be provided
   }
 ```
 
-if only *start* or *end* provided, the operation will change to *less* or *greater* for notBetween and *lessOrEqual* or *greaterOrEqual* for between automatically
+if only *start* is provided the operation will automatically change to *less* (notBetween) or *greaterOrEqual* (between)
+
+if only *end* is provided the operation will automatically change to *greater* (notBetween) or *lessOrEqual* (between)
