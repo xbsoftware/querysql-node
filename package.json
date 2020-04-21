@@ -1,0 +1,23 @@
+{
+  "name": "wheresql",
+  "version": "1.0.0",
+  "description": "Converts JSON config to SQL Query",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xbsoftware/querysql-node.git"
+  },
+  "keywords": [
+    "sql",
+    "query"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xbsoftware/querysql-node/issues"
+  },
+  "homepage": "https://github.com/xbsoftware/querysql-node#readme"
+}
