@@ -30,7 +30,7 @@ function getSQL(data, config){
 			case "contains":
 				return { sql:`INSTR(${data.field}, ?) > 0`, values:[filter] };
 			case "notContains":
-				return { sql:`INSTR(${data.field}, ?) < 0`, values:[filter] };
+				return { sql:`INSTR(${data.field}, ?) = 0`, values:[filter] };
 			case "lessOrEqual":
 				return { sql:`${data.field} <= ?`, values:[filter] };
 			case "greaterOrEqual":
